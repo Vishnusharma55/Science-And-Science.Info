@@ -1,0 +1,191 @@
+/* ****************************
+
+        Default Values
+
+Font: Oswald, sans serif
+
+Colors:
+1. Mindnight Blue: #2c3e50:
+2. Alizarin: #e74c3c:
+
+*****************************/
+
+/****************************
+        Basic Setup
+****************************/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: auto;
+    margin: 0;
+    background-color: #fff;
+}
+
+
+
+/****************************
+           Header
+****************************/
+
+body {
+    background-color: #2c3e50;   
+}
+
+header h1 {
+    text-align: center;
+    color: #2c3e50;
+    padding: 15px;
+}
+
+header h1 span {
+    color: #e74c3c;
+}
+
+/*Nav menu*/
+.nav-menu {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #fafafa;
+}
+
+.nav menu a {
+    color: #2c3e50;
+}
+
+.nav menu a:hover {
+    color: #e74c3c;
+}
+
+.nav-menu li {
+    padding: 20px;
+}
+
+
+
+/****************************
+        About Text
+****************************/
+.about-text {
+    padding: 0 50px;
+}
+
+.about-text h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 25px;
+    color: #e74c3c;
+    margin: 30px 0;
+}
+
+.about-text p {
+    font-weight: 400;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.about-text a {
+    color: #e74c3c;
+    font-weight: 700;
+}
+
+.about-text a:hover {
+    color: #2c3e50;
+}
+
+
+
+/****************************
+        Show Post
+****************************/
+.show-post {
+    margin-top: 80px;
+    padding:0 50px;
+}
+
+.post {
+    margin-bottom: 30px;
+    background-color: #2c3e50;
+    width: auto;
+    display: flex;
+    color: #fff;
+}
+
+.post:nth-child(2) {
+    background-color: #e74c3c;
+}
+
+.post .post-text {
+    padding: 20px;
+    text-align: justify;
+}
+
+.post img {
+    height: auto;
+}
+
+.post-text h2 {
+    margin-bottom: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.post p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+
+
+/****************************
+        Big Image
+****************************/
+.big image {
+    width: 80%;
+    margin: auto;
+}
+
+.big image img {
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+/****************************
+        Footer
+****************************/
+footer {
+    background-color: #e74c3c;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: #fff;
+    font-weight: 300;
+}
+
+
+
+
